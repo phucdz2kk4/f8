@@ -16,9 +16,14 @@ app.use(morgan('combined'));
 
 // template engine
 app.engine(
-    'hbs',
-    handlebars.engine({
-        extname: 'hbs',
+   'hbs',
+  
+   
+    
+   handlebars.engine({
+       
+    
+     extname: 'hbs',
     }),
 );
 app.set('view engine', 'hbs');
